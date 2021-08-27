@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: left;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;    
+    background-image: url("popk.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p{
+    margin: 10px 0;
+}
+
+
+.signup{
+    background-color: #239b76;
+}
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.facebook{
+    margin-right: 10px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.877);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    width: 250px;
+    margin-top: 0.1px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    line-height: 51px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(225, 225, 225, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 0px 0;
+    display: none;
+}
+
+.lesson-wrapper{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2{
+    font-weight: bold;
+}
+
+.lesson{
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p{
+    position: static;
+    top: 44%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    background-color: #1c997e;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #186d4a; 
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.container-footer {
+    background-image: url(ddd.jpg);
+    color: rgb(255, 255, 255);
+    height: 2px;
+    padding: 80px;
+}
+
+.footer-logo {
+    font-size: 30px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 1px;
+}
+
